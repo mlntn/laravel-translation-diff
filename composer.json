@@ -1,0 +1,25 @@
+{
+    "name": "mlntn/laravel-translation-diff",
+    "type": "library",
+    "description": "Diff and fix Laravel translation files",
+    "keywords": ["laravel", "translation", "language", "l10n", "i16n", "diff"],
+    "homepage": "http://github.com/mlntn/laravel-translation-diff",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jared Mellentine",
+            "email": "jared@mellentine.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mlntn\\Translation\\Providers\\TranslationDiffServiceProvider"
+            ]
+        }
+    }
+}
