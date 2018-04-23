@@ -9,7 +9,7 @@ use Illuminate\Console\Command;
 class CheckTranslations extends Command
 {
 
-    protected $signature = 'lang:check {--fix}';
+    protected $signature = 'lang:diff {--fix}';
 
     protected $description = 'Ensure proper translation coverage';
 
