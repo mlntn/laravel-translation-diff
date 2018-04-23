@@ -1,6 +1,6 @@
 <?php
 
-namespace Mlntn\Providers;
+namespace Mlntn\Translation\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Mlntn\Translation\Commands\CheckTranslations;
